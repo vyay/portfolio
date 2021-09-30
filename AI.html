@@ -11,21 +11,30 @@
 			<nav>
 				<a href="/">home</a>
 				<a href="about">about</a>
-				<a href="portfolio">portfolio</a>
+				<div class="dropdown">
+  					<a onclick="myFunction()" class="dropbtn">portfolio</a>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#">3D</a>
+    					<a href="#">AI</a>
+    					<a href="#">Coding</a>
+  					</div>
+				</div>
+
+				<script src="dropdown.js"></script>
 			</nav>
 		</header>
 		<main>
 			<video src="videos/BloomingCherryBlossoms.mp4" autoplay loop muted width="500"></video>	
-			<p>
-				AI-generated images of cherry blossom flowers using StyleGAN.
+			<p class="description">
+				<i>Blooming Cherry Blossoms</i><br><br>AI-generated images of cherry blossom flowers using StyleGAN.
 			</p>
 			<video src="videos/PolaroidMemories.mp4" autoplay loop muted width="500"></video>
-			<p>
-				Interactive webcam experience using machine learning model in Teachable Machine and code in p5.js.
+			<p class="description">
+				<i>Polaroid Memories</i><br><br>Interactive webcam experience using a trained machine learning model in Teachable Machine and code in p5.js.
 			</p>
 			<img src="images/Remnants.png" width="1000">
-			<p>
-				Experimental sculptures created in Grasshopper using AI-generated data points from PoseNet. 
+			<p class="description">
+				<i>Remnants of a Future</i><br><br>Experimental sculptures created in Grasshopper using AI-generated data points from PoseNet. 
 			</p>	
 		</main>
 		<footer>

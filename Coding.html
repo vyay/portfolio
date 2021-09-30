@@ -11,17 +11,26 @@
 			<nav>
 				<a href="/">home</a>
 				<a href="about">about</a>
-				<a href="portfolio">portfolio</a>
+				<div class="dropdown">
+  					<a onclick="myFunction()" class="dropbtn">portfolio</a>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#">3D</a>
+    					<a href="#">AI</a>
+    					<a href="#">Coding</a>
+  					</div>
+				</div>
+
+				<script src="dropdown.js"></script>
 			</nav>
 		</header>
 		<main>
 			<video src="videos/GalacticRailroad.mp4" autoplay loop muted width="1000"></video>	
-			<p>
-				Visualization of space voyage created using Processing. 
+			<p class="description">
+				<i>Galactic Railroad</i><br><br>Visualization of space voyage created using Processing. 
 			</p>	
 			<video src="videos/SoundsofSummer.mp4" controls width="1000"></video>
-			<p>
-				Kinetic sculpture using Arduino, servo motors, and found objects. 
+			<p class="description">
+				<i>Sounds of Summer</i><br><br>Kinetic sculpture using Arduino, servo motors, and found objects. 
 			</p>	
 		</main>
 		<footer>

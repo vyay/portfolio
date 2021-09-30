@@ -11,13 +11,22 @@
 			<nav>
 				<a href="/">home</a>
 				<a href="about">about</a>
-				<a href="portfolio">portfolio</a>
+				<div class="dropdown">
+  					<a onclick="myFunction()" class="dropbtn">portfolio</a>
+  					<div id="myDropdown" class="dropdown-content">
+    					<a href="#">3D</a>
+    					<a href="#">AI</a>
+    					<a href="#">Coding</a>
+  					</div>
+				</div>
+
+				<script src="dropdown.js"></script>
 			</nav>
 		</header>
 		<main>
 			<img src="images/KyLan2.png" width="500">	
-			<p>
-				Mixed media work created using 3D print of stamp tool designed in TinkerCAD . 
+			<p class="description">
+				<i>K&#7923; L&#226;n</i><br><br>Mixed media work created using 3D print of stamp tool designed in TinkerCAD . 
 			</p>	
 		</main>
 		<footer>
