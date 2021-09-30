@@ -67,23 +67,18 @@ img {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
-  overflow: auto;
-
-  z-index: 1;
+  min-width: 90px;
 }
 
 .dropdown-content a {
   color: white;
-  padding: 12px 16px;
-  text-decoration: none;
+  padding: 12px;
   display: block;
 }
 
@@ -91,4 +86,6 @@ img {
   color: #F8C8DC;
 }
 
-.show {display: block;}
+.show {
+  display: block;
+}
