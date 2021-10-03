@@ -23,12 +23,13 @@ function draw() {
   ambientLight(60);
 
   // add point light to showcase specular material
-  let locX = mouseX - width / 2;
-  let locY = mouseY - height / 2;
+  //let locX = mouseX - width / 2;
+  //let locY = mouseY - height / 2;
   //pointLight(255, 255, 255, locX, locY, 50);
   
   normalMaterial();
   //fill(255,192,203);
+  smooth();
   noStroke();
   model(name);
   //const dirY = (mouseY / height - 0.5) * 4;
